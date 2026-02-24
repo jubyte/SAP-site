@@ -11,17 +11,50 @@
     background:#dce8ff;
     padding:25px;
     border-radius:12px;
-    box-shadow:0px 2px 6px rgba(0,0,0,0.1);
     margin-bottom:25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:65%;
+    height: 30%;
 
 }
 
 .titulo{
 
-    font-size:20px;
+    font-size:19px;
     margin-bottom:10px;
     font-family: "Segoe UI", Arial, sans-serif;
     color:#003391;
     font-weight:600;
+    margin-left: 100px;
+
+}
+
+
+.botoes button{
+
+    background:#003391;
+    color:#ecf3ff;
+    border:none;
+    padding:12px 18px;
+    margin-right:10px;
+    border-radius:25px;
+    font-size:15px;
+    letter-spacing: 0.5;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+    width:330px;
+
+
+}
+
+.botoes{
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-right: 100px;
+    
 
 }
