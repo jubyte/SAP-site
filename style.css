@@ -28,7 +28,7 @@
 
 }
 
-.titulo{
+.titulo {
 
     font-size:19px;
     font-family: "Segoe UI", Arial, sans-serif;
@@ -74,5 +74,70 @@
     font-family:"Segoe UI", Arial, sans-serif;
     font-size:15px;
     letter-spacing: 0.5;
+
+}
+
+.card-status{
+
+    background:#dce8ff;
+    padding:25px;
+    border-radius:12px;
+    width:30%;
+    font-family:"Segoe UI", Arial, sans-serif;
+
+}
+
+.linha{
+
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    border-bottom:1px solid #eee;
+    font-size:15px;
+
+}
+
+.processado{
+
+    background:#27c46b;
+    color:white;
+    padding:4px 10px;
+    border-radius:8px;
+    font-size:15px;
+
+}
+
+.analise{
+
+    background:#ffc107;
+    color:white;
+    padding:4px 10px;
+    border-radius:8px;
+    font-size:15px;
+
+}
+
+.cancelado{
+
+    background:#ff3737;
+    color:white;
+    padding:4px 10px;
+    border-radius:8px;
+    font-size:15px;
+
+}
+
+main{
+
+    display:flex;
+    gap:20px;
+
+}
+
+h2{
+
+    font-family:"Segoe UI", Arial, sans-serif;
+    color:#003391;
+    font-weight:600;
 
 }
