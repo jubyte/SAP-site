@@ -20,14 +20,21 @@
 
 }
 
+#robo{
+
+    width: 400px;
+    height: 450px;
+    margin-right: 100px;
+
+}
+
 .titulo{
 
     font-size:19px;
-    margin-bottom:10px;
     font-family: "Segoe UI", Arial, sans-serif;
     color:#003391;
     font-weight:600;
-    margin-left: 100px;
+    display:flex;
 
 }
 
@@ -36,7 +43,6 @@
 
     background:#003391;
     color:#ecf3ff;
-    border:none;
     padding:12px 18px;
     margin-right:10px;
     border-radius:25px;
@@ -56,5 +62,17 @@
     gap:10px;
     margin-right: 100px;
     
+
+}
+
+.fale{
+
+    background:#003391;
+    color:#ecf3ff;
+    padding:8px 16px;
+    border-radius:20px;
+    font-family:"Segoe UI", Arial, sans-serif;
+    font-size:15px;
+    letter-spacing: 0.5;
 
 }
