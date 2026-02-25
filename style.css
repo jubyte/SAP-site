@@ -16,14 +16,14 @@
     justify-content:space-between;
     align-items:center;
     width:65%;
-    height: 25%;
+    height: 400px;
 
 }
 
 #robo{
 
-    width: 400px;
-    height: 450px;
+    width: 450px;
+    height: 400px;
     margin-right: 100px;
 
 }
@@ -32,8 +32,7 @@
 
     font-size:19px;
     font-family: "Segoe UI", Arial, sans-serif;
-    color:#003391;
-    font-weight:600;
+    color:#003391; 
     display:flex;
 
 }
@@ -83,8 +82,8 @@
     padding:25px;
     border-radius:12px;
     width:30%;
+    height: 400px;
     font-family:"Segoe UI", Arial, sans-serif;
-    height:30%;
 
 }
 
@@ -166,6 +165,9 @@
     font-weight:600;
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     color:#003391;
+    border-bottom:1px solid #f3f7ff;
+    padding-bottom:1px;
+    margin-bottom:5px;
 
 }
 
@@ -181,5 +183,61 @@ h2{
     font-family:"Segoe UI", Arial, sans-serif;
     color:#003391;
     font-weight:600;
+
+}
+
+h1{
+
+    font-family:"Segoe UI", Arial, sans-serif;
+    color:#003391;
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+
+span{
+
+    font-family:"Segoe UI", Arial, sans-serif;
+    color:#000000;
+    font-weight: bold;
+}
+
+.topo-compras {
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.produtos{
+
+    display:flex;
+    gap:20px;
+
+}
+
+.produto{
+
+    background:#dce8ff;
+    border-radius:10px;
+    padding:10px;
+    text-align:center;
+    width:120px;
+    font-family:"Segoe UI", Arial, sans-serif;
+
+
+}
+
+.produto img{
+
+    width:60px;
+    margin-bottom:10px;
+
+}
+
+.produto p{
+
+    margin:3px 0;
+    font-size:13px;
 
 }
