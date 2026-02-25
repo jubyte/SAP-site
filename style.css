@@ -22,14 +22,14 @@ body{
     justify-content:space-between;
     align-items:center;
     width:65%;
-    height: 25%;
+    height: 400px;
 
 }
 
 #robo{
 
-    width: 400px;
-    height: 450px;
+    width: 450px;
+    height: 400px;
     margin-right: 100px;
 
 }
@@ -38,8 +38,7 @@ body{
 
     font-size:19px;
     font-family: "Segoe UI", Arial, sans-serif;
-    color:#003391;
-    font-weight:600;
+    color:#003391; 
     display:flex;
 
 }
@@ -89,8 +88,8 @@ body{
     padding:25px;
     border-radius:12px;
     width:30%;
+    height: 400px;
     font-family:"Segoe UI", Arial, sans-serif;
-    height:30%;
 
 }
 
@@ -172,6 +171,9 @@ body{
     font-weight:600;
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     color:#003391;
+    border-bottom:1px solid #f3f7ff;
+    padding-bottom:1px;
+    margin-bottom:5px;
 
 }
 
@@ -188,4 +190,20 @@ h2{
     color:#003391;
     font-weight:600;
 
+}
+
+h1{
+
+    font-family:"Segoe UI", Arial, sans-serif;
+    color:#003391;
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+
+span{
+
+    font-family:"Segoe UI", Arial, sans-serif;
+    color:#000000;
+    font-weight: bold;
 }
