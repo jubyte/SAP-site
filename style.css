@@ -1,8 +1,6 @@
-.pag-1{
+.body{
 
-}
-
-.pag-2{
+    background:#f8fbff;
 
 }
 
@@ -218,13 +216,15 @@ span{
 
 .produto{
 
-    background:#dce8ff;
-    border-radius:10px;
+    background:#ffffff;
+    border-radius:8px;
     padding:10px;
-    text-align:center;
+    text-align: left;
+    position: relative;
     width:120px;
     font-family:"Segoe UI", Arial, sans-serif;
-
+    font-weight: 600;
+    margin: 10px, 5px;
 
 }
 
@@ -241,3 +241,26 @@ span{
     font-size:13px;
 
 }
+.card-compras{
+
+    width: 100%;
+    background: #dce8ff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    flex-direction:column;
+
+}
+
+.carrossel {
+    display: flex;
+    align-items: center;
+}
+
+.seta {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #003391;
+}    
