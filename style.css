@@ -207,3 +207,43 @@ span{
     color:#000000;
     font-weight: bold;
 }
+
+.topo-compras {
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.produtos{
+
+    display:flex;
+    gap:20px;
+
+}
+
+.produto{
+
+    background:#dce8ff;
+    border-radius:10px;
+    padding:10px;
+    text-align:center;
+    width:120px;
+    font-family:"Segoe UI", Arial, sans-serif;
+
+
+}
+
+.produto img{
+
+    width:60px;
+    margin-bottom:10px;
+
+}
+
+.produto p{
+
+    margin:3px 0;
+    font-size:13px;
+
+}
