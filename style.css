@@ -1,7 +1,3 @@
-.pag-1{
-
-}
-
 .pag-2{
 
 }
@@ -240,4 +236,28 @@ span{
     margin:3px 0;
     font-size:13px;
 
+}
+
+#pag1 h2, h1{
+    color: #000000;
+}
+
+#barra-acoes{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+}
+
+.new{
+    display: flex;
+}
+
+.menu{
+    text-align: left;
+}
+
+.overview{
+    
 }
